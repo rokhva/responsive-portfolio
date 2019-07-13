@@ -1,0 +1,9 @@
+/* @media screen and (max-width: 900px){
+.gradient{
+    background-image: blueviolet;
+} */
+@media screen and (max-width: 600px) {
+    header {
+      background-color: lightblue;
+    }
+}

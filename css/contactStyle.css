@@ -21,7 +21,7 @@ h5 {
 #name,
 #email,
 #txtArea {
-    width: 894px;
+    width: 100%;
     margin-bottom: 18px;
     background-color: rgb(255, 255, 255, 0.25);
     border: 1px solid #fff;
@@ -79,3 +79,9 @@ textarea{
     padding: 8px;
     resize: none;
 }
+
+@media screen and (max-width: 600px) {
+    header {
+      background-color: lightblue;
+    }
+  }
