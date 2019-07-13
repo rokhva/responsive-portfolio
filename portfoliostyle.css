@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five {
+    border: 2px solid #ffffff;
+    width: 350px;
+    margin: 30px;
+    padding: 0;
+    position: relative;
+}
+
+.footer{
+    float: bottom;
+}
+
+.portfolioImage {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    /* brower considers images as text elements, the above gets rid of the pixels auto added beneath the image. */
+}
+
+.label{
+    background-color: black;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    width: 346px;
+    position: absolute;
+    font-size: 16pt;
+    bottom: 16px;
+    left: 0px;
+    text-align: center;
+}

@@ -1,0 +1,134 @@
+
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+   }
+
+.gradient {
+    background-image: linear-gradient(-35deg, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%);
+    height: 100%;
+
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/* Styling for navigation */
+#navName{
+    font-size: 13pt;
+    font-weight: 700;
+    letter-spacing: 2pt;
+    margin-right: auto;
+    color: azure;
+}
+
+li a:hover {
+    color: #020f75;
+    transition: ease-in;
+}
+  
+
+
+.navLinks li {
+    display: inline-block;
+    padding: 0px 40px;
+    color: white;
+    font-weight: 700;
+    
+}
+
+#contact,
+#portfolio {
+    border-left: #fff solid 0.5pt;
+}
+
+p {
+    font-size: 12pt;
+    font-weight: lighter;
+    line-height: 2;
+    padding-top: 4px;
+    color: #fff;
+    margin-bottom: 0;
+    margin-top: 6px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+header {
+    display: flex;
+    border-bottom: 3px solid white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 24px 60px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+/* Styling for About Me */
+.aboutMeContainer {
+    width: 960px;
+    border: solid 3px #fff;
+    margin: auto;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-bottom: 50%;
+}
+
+#headshot {
+    float: left;
+    padding-right: 30px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+h2{
+    font-size: 10pt;
+    font-weight: 700;
+    letter-spacing: 2pt;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: 3px solid white;
+    color: white;
+}
+
+
+/* footer */
+  
+.footer{
+    margin: 0;
+    padding: 0;
+    border-top: solid 3px #fff;
+    border-bottom: solid 3px #fff;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 8pt;
+    text-align: center;
+    font-weight: lighter;
+    color: #fff;
+    background-color: black;
+    height: 30px;
+    padding-bottom: 40px;
+}
