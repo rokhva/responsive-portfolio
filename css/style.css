@@ -177,3 +177,38 @@ h2{
         }
     
       }
+
+    @media screen and (max-width: 768px) {
+        .aboutMeContainer {
+            width: 90%;
+            border: solid 3px #fff;
+            margin: auto;
+            margin-top: 30px;
+            padding-bottom: 30px;
+            padding-right: 30px;
+            padding-left: 30px;
+            margin-bottom: 30%;
+        }
+        
+        .one,
+        .two,
+        .three,
+        .four,
+        .five {
+            border: 2px solid #ffffff;
+            width: 100px;
+        }
+    }
+
+    @media screen and (max-width: 980px) {
+        .aboutMeContainer {
+            width: 90%;
+            border: solid 3px #fff;
+            margin: auto;
+            margin-top: 30px;
+            padding-bottom: 30px;
+            padding-right: 30px;
+            padding-left: 30px;
+            margin-bottom: 30%;
+        }
+    }
