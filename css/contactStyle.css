@@ -80,8 +80,4 @@ textarea{
     resize: none;
 }
 
-@media screen and (max-width: 600px) {
-    header {
-      background-color: lightblue;
-    }
-  }
+

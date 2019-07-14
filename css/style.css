@@ -30,11 +30,13 @@ li a:hover {
     color: #020f75;
     transition: ease-in;
 }
-  
 
 
 .navLinks li {
-    display: inline-block;
+    display: flex;
+    display: inline;
+    flex-wrap: nowrap;
+    justify-content: center;
     padding: 0px 40px;
     color: white;
     font-weight: 700;
@@ -134,11 +136,44 @@ h2{
     padding-bottom: 40px;
 }
 
-@media screen and (max-width: 980px){
-    .gradient{
-        background-image: blueviolet;
-    }
-    body {
-        font-family: cursive;
-    }
-    }
+
+/* ------------------------------------------------------------------------------------------ */
+/* Media Queries */
+/* ------------------------------------------------------------------------------------------ */
+
+    @media screen and (max-width: 640px) {
+        .aboutMeContainer {
+            width: 90%;
+            border: solid 3px #fff;
+            margin: auto;
+            margin-top: 30px;
+            padding-bottom: 30px;
+            padding-right: 30px;
+            padding-left: 30px;
+            margin-bottom: 30%;
+        }
+
+        img{
+            width: 100%;
+        }
+
+        .navLinks{
+            display: flex;
+            flex-direction: row;
+        }
+
+        h1#navName{
+            text-align: center;
+            display: inline-flex;
+            justify-content: center;
+            margin-left: 30%;
+            padding-bottom: 2%;
+        }
+
+        header{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+    
+      }
